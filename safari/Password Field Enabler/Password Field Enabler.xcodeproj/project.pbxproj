@@ -1,0 +1,951 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		492083D729A818AB007D8958 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492083D629A818AB007D8958 /* AppDelegate.swift */; };
+		492083D929A818AB007D8958 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492083D829A818AB007D8958 /* SceneDelegate.swift */; };
+		492083DC29A818AB007D8958 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492083DA29A818AB007D8958 /* LaunchScreen.storyboard */; };
+		492083DF29A818AB007D8958 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492083DD29A818AB007D8958 /* Main.storyboard */; };
+		492083E829A818AB007D8958 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492083E729A818AB007D8958 /* AppDelegate.swift */; };
+		492083EB29A818AB007D8958 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492083E929A818AB007D8958 /* Main.storyboard */; };
+		492083F329A818AB007D8958 /* Password Field Enabler Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 492083F229A818AB007D8958 /* Password Field Enabler Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		492083FD29A818AB007D8958 /* Password Field Enabler Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 492083FC29A818AB007D8958 /* Password Field Enabler Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4920840329A818AB007D8958 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 492083C629A818AA007D8958 /* Main.html */; };
+		4920840429A818AB007D8958 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 492083C629A818AA007D8958 /* Main.html */; };
+		4920840529A818AB007D8958 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 492083C829A818AA007D8958 /* Icon.png */; };
+		4920840629A818AB007D8958 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 492083C829A818AA007D8958 /* Icon.png */; };
+		4920840729A818AB007D8958 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 492083C929A818AA007D8958 /* Style.css */; };
+		4920840829A818AB007D8958 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 492083C929A818AA007D8958 /* Style.css */; };
+		4920840929A818AB007D8958 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 492083CA29A818AA007D8958 /* Script.js */; };
+		4920840A29A818AB007D8958 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 492083CA29A818AA007D8958 /* Script.js */; };
+		4920840B29A818AB007D8958 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492083CB29A818AA007D8958 /* ViewController.swift */; };
+		4920840C29A818AB007D8958 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492083CB29A818AA007D8958 /* ViewController.swift */; };
+		4920840D29A818AB007D8958 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492083CC29A818AB007D8958 /* Assets.xcassets */; };
+		4920840E29A818AB007D8958 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492083CC29A818AB007D8958 /* Assets.xcassets */; };
+		4920840F29A818AB007D8958 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492083CE29A818AB007D8958 /* SafariWebExtensionHandler.swift */; };
+		4920841029A818AB007D8958 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492083CE29A818AB007D8958 /* SafariWebExtensionHandler.swift */; };
+		4920842829A818AB007D8958 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4920842229A818AB007D8958 /* README.md */; };
+		4920842929A818AB007D8958 /* build.sh in Resources */ = {isa = PBXBuildFile; fileRef = 4920842329A818AB007D8958 /* build.sh */; };
+		4920842A29A818AB007D8958 /* safari in Resources */ = {isa = PBXBuildFile; fileRef = 4920842429A818AB007D8958 /* safari */; };
+		4920842B29A818AB007D8958 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 4920842529A818AB007D8958 /* icons */; };
+		4920842C29A818AB007D8958 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 4920842629A818AB007D8958 /* manifest.json */; };
+		4920842D29A818AB007D8958 /* pw-enabler.js in Resources */ = {isa = PBXBuildFile; fileRef = 4920842729A818AB007D8958 /* pw-enabler.js */; };
+		4920842E29A818AB007D8958 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4920842229A818AB007D8958 /* README.md */; };
+		4920842F29A818AB007D8958 /* build.sh in Resources */ = {isa = PBXBuildFile; fileRef = 4920842329A818AB007D8958 /* build.sh */; };
+		4920843029A818AB007D8958 /* safari in Resources */ = {isa = PBXBuildFile; fileRef = 4920842429A818AB007D8958 /* safari */; };
+		4920843129A818AB007D8958 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 4920842529A818AB007D8958 /* icons */; };
+		4920843229A818AB007D8958 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 4920842629A818AB007D8958 /* manifest.json */; };
+		4920843329A818AB007D8958 /* pw-enabler.js in Resources */ = {isa = PBXBuildFile; fileRef = 4920842729A818AB007D8958 /* pw-enabler.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		492083F429A818AB007D8958 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 492083C029A818AA007D8958 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 492083F129A818AB007D8958;
+			remoteInfo = "Password Field Enabler Extension (iOS)";
+		};
+		492083FE29A818AB007D8958 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 492083C029A818AA007D8958 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 492083FB29A818AB007D8958;
+			remoteInfo = "Password Field Enabler Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4920841629A818AB007D8958 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				492083F329A818AB007D8958 /* Password Field Enabler Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4920841D29A818AB007D8958 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				492083FD29A818AB007D8958 /* Password Field Enabler Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		492083C729A818AA007D8958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		492083C829A818AA007D8958 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		492083C929A818AA007D8958 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		492083CA29A818AA007D8958 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		492083CB29A818AA007D8958 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		492083CC29A818AB007D8958 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		492083CE29A818AB007D8958 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		492083D329A818AB007D8958 /* Password Field Enabler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Password Field Enabler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		492083D629A818AB007D8958 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		492083D829A818AB007D8958 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		492083DB29A818AB007D8958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		492083DE29A818AB007D8958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		492083E029A818AB007D8958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492083E529A818AB007D8958 /* Password Field Enabler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Password Field Enabler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		492083E729A818AB007D8958 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		492083EA29A818AB007D8958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		492083EC29A818AB007D8958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492083ED29A818AB007D8958 /* Password Field Enabler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Password Field Enabler.entitlements"; sourceTree = "<group>"; };
+		492083F229A818AB007D8958 /* Password Field Enabler Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Password Field Enabler Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		492083F729A818AB007D8958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492083FC29A818AB007D8958 /* Password Field Enabler Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Password Field Enabler Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4920840129A818AB007D8958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4920840229A818AB007D8958 /* Password Field Enabler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Password Field Enabler.entitlements"; sourceTree = "<group>"; };
+		4920842229A818AB007D8958 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../README.md; sourceTree = "<group>"; };
+		4920842329A818AB007D8958 /* build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = build.sh; path = ../../../build.sh; sourceTree = "<group>"; };
+		4920842429A818AB007D8958 /* safari */ = {isa = PBXFileReference; lastKnownFileType = folder; name = safari; path = ../..; sourceTree = "<group>"; };
+		4920842529A818AB007D8958 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = ../../../icons; sourceTree = "<group>"; };
+		4920842629A818AB007D8958 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../../manifest.json; sourceTree = "<group>"; };
+		4920842729A818AB007D8958 /* pw-enabler.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "pw-enabler.js"; path = "../../../pw-enabler.js"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		492083D029A818AB007D8958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		492083E229A818AB007D8958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		492083EF29A818AB007D8958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		492083F929A818AB007D8958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		492083BF29A818AA007D8958 = {
+			isa = PBXGroup;
+			children = (
+				492083C429A818AA007D8958 /* Shared (App) */,
+				492083CD29A818AB007D8958 /* Shared (Extension) */,
+				492083D529A818AB007D8958 /* iOS (App) */,
+				492083E629A818AB007D8958 /* macOS (App) */,
+				492083F629A818AB007D8958 /* iOS (Extension) */,
+				4920840029A818AB007D8958 /* macOS (Extension) */,
+				492083D429A818AB007D8958 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		492083C429A818AA007D8958 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				492083CB29A818AA007D8958 /* ViewController.swift */,
+				492083CC29A818AB007D8958 /* Assets.xcassets */,
+				492083C529A818AA007D8958 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		492083C529A818AA007D8958 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				492083C629A818AA007D8958 /* Main.html */,
+				492083C829A818AA007D8958 /* Icon.png */,
+				492083C929A818AA007D8958 /* Style.css */,
+				492083CA29A818AA007D8958 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		492083CD29A818AB007D8958 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				4920842129A818AB007D8958 /* Resources */,
+				492083CE29A818AB007D8958 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		492083D429A818AB007D8958 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				492083D329A818AB007D8958 /* Password Field Enabler.app */,
+				492083E529A818AB007D8958 /* Password Field Enabler.app */,
+				492083F229A818AB007D8958 /* Password Field Enabler Extension.appex */,
+				492083FC29A818AB007D8958 /* Password Field Enabler Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		492083D529A818AB007D8958 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				492083D629A818AB007D8958 /* AppDelegate.swift */,
+				492083D829A818AB007D8958 /* SceneDelegate.swift */,
+				492083DA29A818AB007D8958 /* LaunchScreen.storyboard */,
+				492083DD29A818AB007D8958 /* Main.storyboard */,
+				492083E029A818AB007D8958 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		492083E629A818AB007D8958 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				492083E729A818AB007D8958 /* AppDelegate.swift */,
+				492083E929A818AB007D8958 /* Main.storyboard */,
+				492083EC29A818AB007D8958 /* Info.plist */,
+				492083ED29A818AB007D8958 /* Password Field Enabler.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		492083F629A818AB007D8958 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				492083F729A818AB007D8958 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		4920840029A818AB007D8958 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				4920840129A818AB007D8958 /* Info.plist */,
+				4920840229A818AB007D8958 /* Password Field Enabler.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		4920842129A818AB007D8958 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4920842229A818AB007D8958 /* README.md */,
+				4920842329A818AB007D8958 /* build.sh */,
+				4920842429A818AB007D8958 /* safari */,
+				4920842529A818AB007D8958 /* icons */,
+				4920842629A818AB007D8958 /* manifest.json */,
+				4920842729A818AB007D8958 /* pw-enabler.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		492083D229A818AB007D8958 /* Password Field Enabler (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4920841729A818AB007D8958 /* Build configuration list for PBXNativeTarget "Password Field Enabler (iOS)" */;
+			buildPhases = (
+				492083CF29A818AB007D8958 /* Sources */,
+				492083D029A818AB007D8958 /* Frameworks */,
+				492083D129A818AB007D8958 /* Resources */,
+				4920841629A818AB007D8958 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				492083F529A818AB007D8958 /* PBXTargetDependency */,
+			);
+			name = "Password Field Enabler (iOS)";
+			productName = "Password Field Enabler (iOS)";
+			productReference = 492083D329A818AB007D8958 /* Password Field Enabler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		492083E429A818AB007D8958 /* Password Field Enabler (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4920841E29A818AB007D8958 /* Build configuration list for PBXNativeTarget "Password Field Enabler (macOS)" */;
+			buildPhases = (
+				492083E129A818AB007D8958 /* Sources */,
+				492083E229A818AB007D8958 /* Frameworks */,
+				492083E329A818AB007D8958 /* Resources */,
+				4920841D29A818AB007D8958 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				492083FF29A818AB007D8958 /* PBXTargetDependency */,
+			);
+			name = "Password Field Enabler (macOS)";
+			productName = "Password Field Enabler (macOS)";
+			productReference = 492083E529A818AB007D8958 /* Password Field Enabler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		492083F129A818AB007D8958 /* Password Field Enabler Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4920841329A818AB007D8958 /* Build configuration list for PBXNativeTarget "Password Field Enabler Extension (iOS)" */;
+			buildPhases = (
+				492083EE29A818AB007D8958 /* Sources */,
+				492083EF29A818AB007D8958 /* Frameworks */,
+				492083F029A818AB007D8958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Password Field Enabler Extension (iOS)";
+			productName = "Password Field Enabler Extension (iOS)";
+			productReference = 492083F229A818AB007D8958 /* Password Field Enabler Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		492083FB29A818AB007D8958 /* Password Field Enabler Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4920841A29A818AB007D8958 /* Build configuration list for PBXNativeTarget "Password Field Enabler Extension (macOS)" */;
+			buildPhases = (
+				492083F829A818AB007D8958 /* Sources */,
+				492083F929A818AB007D8958 /* Frameworks */,
+				492083FA29A818AB007D8958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Password Field Enabler Extension (macOS)";
+			productName = "Password Field Enabler Extension (macOS)";
+			productReference = 492083FC29A818AB007D8958 /* Password Field Enabler Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		492083C029A818AA007D8958 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					492083D229A818AB007D8958 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					492083E429A818AB007D8958 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					492083F129A818AB007D8958 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					492083FB29A818AB007D8958 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 492083C329A818AA007D8958 /* Build configuration list for PBXProject "Password Field Enabler" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 492083BF29A818AA007D8958;
+			productRefGroup = 492083D429A818AB007D8958 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				492083D229A818AB007D8958 /* Password Field Enabler (iOS) */,
+				492083E429A818AB007D8958 /* Password Field Enabler (macOS) */,
+				492083F129A818AB007D8958 /* Password Field Enabler Extension (iOS) */,
+				492083FB29A818AB007D8958 /* Password Field Enabler Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		492083D129A818AB007D8958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4920840529A818AB007D8958 /* Icon.png in Resources */,
+				492083DC29A818AB007D8958 /* LaunchScreen.storyboard in Resources */,
+				4920840329A818AB007D8958 /* Main.html in Resources */,
+				4920840929A818AB007D8958 /* Script.js in Resources */,
+				4920840D29A818AB007D8958 /* Assets.xcassets in Resources */,
+				492083DF29A818AB007D8958 /* Main.storyboard in Resources */,
+				4920840729A818AB007D8958 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		492083E329A818AB007D8958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4920840629A818AB007D8958 /* Icon.png in Resources */,
+				4920840829A818AB007D8958 /* Style.css in Resources */,
+				492083EB29A818AB007D8958 /* Main.storyboard in Resources */,
+				4920840A29A818AB007D8958 /* Script.js in Resources */,
+				4920840E29A818AB007D8958 /* Assets.xcassets in Resources */,
+				4920840429A818AB007D8958 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		492083F029A818AB007D8958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4920842E29A818AB007D8958 /* README.md in Resources */,
+				4920843329A818AB007D8958 /* pw-enabler.js in Resources */,
+				4920843129A818AB007D8958 /* icons in Resources */,
+				4920843229A818AB007D8958 /* manifest.json in Resources */,
+				4920842F29A818AB007D8958 /* build.sh in Resources */,
+				4920843029A818AB007D8958 /* safari in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		492083FA29A818AB007D8958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4920842829A818AB007D8958 /* README.md in Resources */,
+				4920842D29A818AB007D8958 /* pw-enabler.js in Resources */,
+				4920842B29A818AB007D8958 /* icons in Resources */,
+				4920842C29A818AB007D8958 /* manifest.json in Resources */,
+				4920842929A818AB007D8958 /* build.sh in Resources */,
+				4920842A29A818AB007D8958 /* safari in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		492083CF29A818AB007D8958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4920840B29A818AB007D8958 /* ViewController.swift in Sources */,
+				492083D729A818AB007D8958 /* AppDelegate.swift in Sources */,
+				492083D929A818AB007D8958 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		492083E129A818AB007D8958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4920840C29A818AB007D8958 /* ViewController.swift in Sources */,
+				492083E829A818AB007D8958 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		492083EE29A818AB007D8958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4920840F29A818AB007D8958 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		492083F829A818AB007D8958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4920841029A818AB007D8958 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		492083F529A818AB007D8958 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 492083F129A818AB007D8958 /* Password Field Enabler Extension (iOS) */;
+			targetProxy = 492083F429A818AB007D8958 /* PBXContainerItemProxy */;
+		};
+		492083FF29A818AB007D8958 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 492083FB29A818AB007D8958 /* Password Field Enabler Extension (macOS) */;
+			targetProxy = 492083FE29A818AB007D8958 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		492083C629A818AA007D8958 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				492083C729A818AA007D8958 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		492083DA29A818AB007D8958 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				492083DB29A818AB007D8958 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		492083DD29A818AB007D8958 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				492083DE29A818AB007D8958 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		492083E929A818AB007D8958 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				492083EA29A818AB007D8958 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4920841129A818AB007D8958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4920841229A818AB007D8958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4920841429A818AB007D8958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Password Field Enabler Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pwEnabler.Password-Field-Enabler.Extension";
+				PRODUCT_NAME = "Password Field Enabler Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4920841529A818AB007D8958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Password Field Enabler Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pwEnabler.Password-Field-Enabler.Extension";
+				PRODUCT_NAME = "Password Field Enabler Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4920841829A818AB007D8958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Password Field Enabler";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pwEnabler.Password-Field-Enabler";
+				PRODUCT_NAME = "Password Field Enabler";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4920841929A818AB007D8958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Password Field Enabler";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pwEnabler.Password-Field-Enabler";
+				PRODUCT_NAME = "Password Field Enabler";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4920841B29A818AB007D8958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Password Field Enabler.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Password Field Enabler Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pwEnabler.Password-Field-Enabler.Extension";
+				PRODUCT_NAME = "Password Field Enabler Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4920841C29A818AB007D8958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Password Field Enabler.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Password Field Enabler Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pwEnabler.Password-Field-Enabler.Extension";
+				PRODUCT_NAME = "Password Field Enabler Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4920841F29A818AB007D8958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Password Field Enabler.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Password Field Enabler";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pwEnabler.Password-Field-Enabler";
+				PRODUCT_NAME = "Password Field Enabler";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4920842029A818AB007D8958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Password Field Enabler.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Password Field Enabler";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pwEnabler.Password-Field-Enabler";
+				PRODUCT_NAME = "Password Field Enabler";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		492083C329A818AA007D8958 /* Build configuration list for PBXProject "Password Field Enabler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4920841129A818AB007D8958 /* Debug */,
+				4920841229A818AB007D8958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4920841329A818AB007D8958 /* Build configuration list for PBXNativeTarget "Password Field Enabler Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4920841429A818AB007D8958 /* Debug */,
+				4920841529A818AB007D8958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4920841729A818AB007D8958 /* Build configuration list for PBXNativeTarget "Password Field Enabler (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4920841829A818AB007D8958 /* Debug */,
+				4920841929A818AB007D8958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4920841A29A818AB007D8958 /* Build configuration list for PBXNativeTarget "Password Field Enabler Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4920841B29A818AB007D8958 /* Debug */,
+				4920841C29A818AB007D8958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4920841E29A818AB007D8958 /* Build configuration list for PBXNativeTarget "Password Field Enabler (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4920841F29A818AB007D8958 /* Debug */,
+				4920842029A818AB007D8958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 492083C029A818AA007D8958 /* Project object */;
+}
